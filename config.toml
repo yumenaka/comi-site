@@ -1,9 +1,11 @@
+# 锟斤拷目?
 baseURL = "/"
-title = "Goldydocs"
+title = "Comigo - Simple, cross-platform manga reader"
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+
+contentDir = "content/zh-cn"
+defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -66,14 +68,26 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
-[languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
-languageName ="English"
+[languages.zh-cn]
+title = "Comigo"
+description = "简单，方便的漫画浏览器"
+languageCode = "zh-cn"
+languageName ="Chinese"
+contentDir = "content/zh-cn"
+time_format_default = "2006.01.02"
+time_format_blog = "2006.01.02"
 # Weight used for sorting.
 weight = 1
+[languages.en]
+title = "Comigo"
+languageCode = "en"
+description = "Simple, cross-platform comic reader"
+languageName ="English"
+contentDir = "content/en"
+# Weight used for sorting.
+weight = 2
 [languages.no]
-title = "Goldydocs"
+title = "Comigo"
 description = "Docsy er operativsystem for skyen"
 languageName ="Norsk"
 contentDir = "content/no"
