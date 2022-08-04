@@ -1,4 +1,4 @@
-# 锟斤拷目?
+# 根目录
 baseURL = "/"
 title = "Comigo - Simple, cross-platform manga reader"
 
@@ -86,19 +86,12 @@ languageName ="English"
 contentDir = "content/en"
 # Weight used for sorting.
 weight = 2
-[languages.no]
-title = "Comigo"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
 
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
+[languages.jp]
+title = "Comigo"
+description = "使えやすい漫画Reader"
+languageName ="japanese"
+contentDir = "content/jp"
 time_format_default = "2006.01.02"
 time_format_blog = "2006.01.02"
 
@@ -141,12 +134,12 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://example.com"
+url_latest_version = "https://github.com/yumenaka/comi"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/yumenaka/comi/issues"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://twitter.com/yumenaka7"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -207,7 +200,7 @@ enable = false
   desc = "Discussion and help from your fellow users"
 [[params.links.user]]
   name ="Twitter"
-  url = "https://example.org/twitter"
+  url = "https://twitter.com/yumenaka7"
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
@@ -218,7 +211,7 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/google/docsy"
+  url = "https://github.com/yumenaka/comi"
   icon = "fab fa-github"
   desc = "Development takes place here!"
 [[params.links.developer]]
